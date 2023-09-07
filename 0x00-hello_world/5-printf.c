@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	printf("with proper grammar, but the putcome is a piece of art, \n"):
-		return (0):
+	printf("with proper grammar, but the putcome is a piece of art, \n");
+		return (0);
 }
