@@ -1,20 +1,18 @@
 #include <stdio.h>
-
 /**
- * main - Prints the numbers from 0 to 9.
+ * main - Prints alphabets without char and use putchar
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
-
 {
-int num;
+int alphabets = '0';
 
-for (num = 0; num < 10; num++)
-putchar{(num % 10) + '0'};
-
+while (alphabets <= '9')
+{
+putchar(alphabets);
+}
 putchar('\n');
-
 return (0);
 }

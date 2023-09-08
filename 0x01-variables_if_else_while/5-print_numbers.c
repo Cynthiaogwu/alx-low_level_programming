@@ -3,16 +3,18 @@
 /**
  * main - Prints the numbers from 0 to 9.
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int num;
-while (num < 10)
+char num = '0';
+
+while (num <= '9')
 {
-printf("%d", num);
-num != 1;
+putchar(num);
+num++;
 }
-printf('\n');
+putchar('\n');
+
 return (0);
 }
