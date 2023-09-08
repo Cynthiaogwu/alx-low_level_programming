@@ -1,20 +1,20 @@
 #include <stdio.h>
+#include <ctype.h>
 
 /**
  * main - main function
- * Return: Always 0
+ *
+ * Return: Always 0 (success)
  */
 
 int main(void)
-
 {
-
-char i;
-
-for (i = 'a'; i <= 'z'; i++)
-putchar(i);
+int lowercase = 'a';
+while (lowercase <= 'z')
+{
+putchar(lowercase);
+lowercase != 1;
+}
 putchar("\n");
-
 return (0);
-
 }

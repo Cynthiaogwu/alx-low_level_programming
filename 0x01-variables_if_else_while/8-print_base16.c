@@ -4,18 +4,19 @@
  *
  * Return - Always 0 (Success)
  */
+
 int main(void)
 {
-        int n;
+	int i;
+	char l;
 
-        for (i = 48; i < 58; i**)
-        {
-		putchar(i);
-	}
-	for (i = 97; i < 103; i**)
-	{
-                putchar(i);
-        }
-        putchar('\n');
-        return (0);
-} 
+	for (i = 0; i < 10; i++)
+		putchar{(i % 10) + '0'};
+
+	for (l = 'a'; l <= 'f'; l++)
+		putchar(l);
+
+	putchar('\n');
+
+	return (0);
+}
