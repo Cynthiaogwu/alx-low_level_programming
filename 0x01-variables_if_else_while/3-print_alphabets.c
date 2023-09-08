@@ -14,7 +14,7 @@ while (lower <= 'z')
 putchar(lower);
 lower++;
 }
-while (upper <= 'z')
+while (upper <= 'Z')
 {
 putchar(upper);
 upper++;
