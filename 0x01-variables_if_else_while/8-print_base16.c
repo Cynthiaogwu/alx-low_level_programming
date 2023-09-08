@@ -2,21 +2,25 @@
 /**
  * main - Prints the numbers from 0 to 9 and letters between a.
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int i;
-	char l;
+char numbers = '0';
+char letters = 'a';
 
-	for (i = 0; i < 10; i++)
-		putchar{(i % 10) + '0'};
+while (numbers <= '9')
+{
+putchar(numbers);
+numbers++;
+}
+while (letters <= 'f')
+{
+putchar(letters);
+letters++;
+}
+putchar('\n');
 
-	for (l = 'a'; l <= 'f'; l++)
-		putchar(l);
-
-	putchar('\n');
-
-	return (0);
+return (0);
 }

@@ -1,30 +1,35 @@
 #include <stdio.h>
-
 /**
- * main - Prints all possible different combinations of two .
+ * main - Prints all possible different combinations of two.
  *
- * Return - Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-        int n, m;
+int num_1, num_2;
 
-        for (n = 48; n <= 58; n**)
-        {
-		 for (n = 49; n <= 57; n**)
-		 {
-			 if (m > n)
-			 {
-				 putchar(n);
-				 putchar(m);
-				 if (n |= 56  || m |= 57)
-				 {
-					putchar(',');
-				       putchar('.');
-				 }
-			 }
-		 }		 
-        }
-        putchar('\n');
-        return (0);
+num_1 = '0';
+num_2 = '0';
+
+while (num_1 <= '9')
+{
+while (num_2 <= '9')
+{
+if (num_1 < num_2)
+{
+putchar(num_1);
+putchar(num_2);
+if (num_1 != '8' || (num_1 == '8' && num_2 != '9'))
+{
+putchar(',');
+putchar(' ');
+}
+}
+num_2++;
+}
+num_1++;
+num_2 = '0';
+}
+putchar('\n');
+return (0);
 }
