@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - checks for alphabetic character
- * 
+ *
  * Description: we are using _putchar
  *
  * @c the character to be checked
