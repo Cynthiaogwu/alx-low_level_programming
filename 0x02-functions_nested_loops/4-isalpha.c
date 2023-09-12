@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character
+ * _isalpha - return 1 when c is cap or low
  *
  * Description: we are using _putchar
  *
- * @c the character to be checked
+ * @c: the character to be checked
  *
  * Return: 1 if c is a letter, 0 otherwise
  */
