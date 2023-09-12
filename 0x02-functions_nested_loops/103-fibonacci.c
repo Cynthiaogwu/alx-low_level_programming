@@ -6,19 +6,24 @@
  */
 int main(void)
 {
-	long int i, x = 1, y = 2, sum = 0, tsum = 0;
+	int i;
+	unsigned long int j, k, next, sum;
 
-	for (i = 0; i < 49; i++)
+	j = 1;
+	k = 2;
+	sum = 0;
+
+	for (i = 1; i <= 33; ++i)
 	{
-		if ((y % 2 == 0) && (y <= 4000000))
+		if (j < 4000000 && (j % 2) == 0)
 		{
-			 tsum = tsum + y;
+			 sum = sum + j;
 		}
-		sum = x + y;
-		x = y;
-		y = sum;
+		next = j + k;
+		j = k;
+		k = next;
 	}
-	printf("%ld\n", tsum);
+	printf("%lu\n", sum);
 
 	return (0);
 }	 
