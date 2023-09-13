@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - sum up even fibonacci up to 4million
  *
  * Return: (0)
  */
+
 int main(void)
 {
 	int i;
@@ -26,4 +28,4 @@ int main(void)
 	printf("%lu\n", sum);
 
 	return (0);
-}	 
+}
