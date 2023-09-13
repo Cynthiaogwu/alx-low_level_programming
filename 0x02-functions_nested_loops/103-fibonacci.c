@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - sum up even fibonacci up to 4million
+ * main - find and prints the sum of the even valued terms
  *
- * Return: (0)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -17,14 +17,16 @@ int main(void)
 
 	for (i = 1; i <= 33; ++i)
 	{
+		
 		if (j < 4000000 && (j % 2) == 0)
-		{
+	{
 			 sum = sum + j;
-		}
+	}
 		next = j + k;
 		j = k;
 		k = next;
 	}
+
 	printf("%lu\n", sum);
 
 	return (0);
