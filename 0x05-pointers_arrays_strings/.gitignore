@@ -12,3 +12,12 @@
 1-swap
 2-strlen
 5-rev_string
+100-atoi
+101-keygen
+3-puts
+4-print_rev
+6-puts2
+7-puts_half
+8-print_array
+9-strcpy
+9-main.c
