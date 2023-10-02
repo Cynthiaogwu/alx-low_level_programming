@@ -37,9 +37,8 @@ int i, d, n, len, f, digit;
 	}
 	if (f == 0)
 		return (0);
-	return (n);	
+	return (n);
 }
-		
 /**
  * main - multiplies two numbers
  * @argc: number of arguments
@@ -60,5 +59,5 @@ if (argc < 3 || argc > 3)
 	result = num1 * num2;
 
 	printf("%d\n", result);
-	return (0);	
+	return (0);
 }
